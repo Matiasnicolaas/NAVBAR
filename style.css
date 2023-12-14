@@ -12,6 +12,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: rgb(255, 255, 255);
 }
 
 ul {
@@ -22,4 +23,24 @@ ul {
 
 ul a {
   text-decoration: none;
+}
+main h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.hero-link {
+  background-color: rgb(128, 128, 249);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.hero-card {
+  background-color: bisque;
+  height: 500px;
+  border-radius: 20px;
+  padding: 20px;
+}
+.hero-card img {
+  width: 300px;
 }
